@@ -4,17 +4,16 @@
 == Usage
 
   两个数组合并,删除数组中重复元素
-  
-    jQuery.uniq([1,2]) // return [1,2]
-    jQuery.uniq([1,2], []) // return [1,2]
-    jQuery.uniq([1,2], [2]) // return [1,2]
-    jQuery.uniq([1,2], [2,3]) // return [1,2,3]
+  jQuery.uniq([1,2]) // return [1,2]
+  jQuery.uniq([1,2], []) // return [1,2]
+  jQuery.uniq([1,2], [2]) // return [1,2]
+  jQuery.uniq([1,2], [2,3]) // return [1,2,3]
 
   两个数组相减
-    jQuery.sub([1,2]) // return [1]
-    jQuery.sub([1,2], []) // return [1]
-    jQuery.sub([1,2], [2]) // return [1]
-    jQuery.sub([1,2], [2,3]) // return [1]
+  jQuery.sub([1,2]) // return [1]
+  jQuery.sub([1,2], []) // return [1]
+  jQuery.sub([1,2], [2]) // return [1]
+  jQuery.sub([1,2], [2,3]) // return [1]
     
 
 == Note
